@@ -1,0 +1,54 @@
+{
+  "runToken": "2a4f9e93-2354-4c97-a697-c0703707dcb4",
+  "projectName": "hello-world",
+  "domainLocation": "",
+  "tags": [],
+  "testNames": [],
+  "suitePaths": [
+    "test-suite.xml"
+  ],
+  "skipAfterFailure": false,
+  "notifierConfigurations": [
+    {
+      "clazz": "org.mule.munit.remote.notifiers.ConsoleNotifier",
+      "parameters": [
+        {
+          "name": "runToken",
+          "type": "java.lang.String",
+          "value": "2a4f9e93-2354-4c97-a697-c0703707dcb4"
+        }
+      ]
+    }
+  ],
+  "coverageConfiguration": {
+    "runCoverage": true,
+    "randomizeCoveragePort": true,
+    "suitePaths": [
+      "test-suite.xml"
+    ],
+    "ignoredFiles": [],
+    "ignoredFlowNames": []
+  },
+  "containerConfiguration": {
+    "runtimeId": "4.1.0",
+    "product": "MULE_EE",
+    "munitWorkingDirectoryPath": "/Users/home/LearnGame/dirMule/anypoint-examples/anypoint-examples/hello-world/target/munitworkingdir-2623203604127879",
+    "log4JConfigurationFilePath": "/Users/home/LearnGame/dirMule/anypoint-examples/anypoint-examples/hello-world/target/classes/log4j2.xml",
+    "mavenConfiguration": {
+      "settingsXmlFilePath": "/Users/home/.m2/settings.xml",
+      "globalSettingsXmlFilePath": "/Users/home/Binaries/Maven/apache-maven-3.5.0/conf/settings.xml",
+      "mavenRepositoryDirectoryPath": "/Users/home/.m2/repository",
+      "offlineMode": false,
+      "forcePolicyUpdate": true
+    },
+    "serverPluginConfigurations": [
+      {
+        "groupId": "com.mulesoft.munit.plugins",
+        "artifactId": "munit-coverage-plugin",
+        "version": "2.1.0",
+        "type": "jar",
+        "classifier": "mule-server-plugin"
+      }
+    ]
+  }
+}
